@@ -1,0 +1,13 @@
+{
+  "name": "e6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:dev": "webpack --env=dev --progress --profile --colors",
+    "build:dist": "webpack --env=prod --progress --profile --colors"
+  },
+  "author": "",
+  "license": "ISC"
+}
